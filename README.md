@@ -1,5 +1,14 @@
 # humanizer-ru
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Version](https://img.shields.io/badge/version-0.1.0-blue.svg)](CHANGELOG.md)
+[![GitHub stars](https://img.shields.io/github/stars/SergeNS-mne/humanizer-ru?style=social)](https://github.com/SergeNS-mne/humanizer-ru/stargazers)
+[![Claude Code](https://img.shields.io/badge/Claude%20Code-skill-5B3FCA)](https://claude.com/claude-code)
+[![OpenCode](https://img.shields.io/badge/OpenCode-compatible-black)](https://opencode.ai)
+[![Language: Russian](https://img.shields.io/badge/language-ru-red.svg)](README.md)
+
+> 🇬🇧 [Read in English](README.en.md)
+
 Claude Code skill, который убирает признаки AI-генерации из **русскоязычных** текстов.
 
 Ловит канцелярит, цепочки родительного падежа, «является»-паразит, кальки с английского, штампы «современной эпохи», избыточные преувеличения, правило трёх и типографические AI-маркеры.

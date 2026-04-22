@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Обсуждения
+    url: https://github.com/SergeNS-mne/humanizer-ru/discussions
+    about: Вопросы, идеи, открытые обсуждения — не issues
+  - name: 📚 Документация
+    url: https://github.com/SergeNS-mne/humanizer-ru/blob/main/SKILL.md
+    about: Полный каталог правил в SKILL.md
