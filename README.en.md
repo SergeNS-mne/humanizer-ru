@@ -18,8 +18,8 @@ Modern LLMs (Claude, GPT, Gemini) write Russian in recognizable patterns: long s
 `humanizer-ru` is a catalog of ~38 patterns and rewriting rules that remove these markers and produce more natural Russian prose.
 
 Works in two modes:
-- **Basic** — applies rules directly to text.
-- **Voice calibration** — analyzes a 2-3 paragraph sample of your own writing and matches your rhythm, vocabulary, and typographic habits (ты vs Вы, dash style, guillemets vs straight quotes, use of ё), instead of producing a "sterile clean" output.
+- **Basic** – applies rules directly to text.
+- **Voice calibration** – analyzes a 2-3 paragraph sample of your own writing and matches your rhythm, vocabulary, and typographic habits (ты vs Вы, dash style, guillemets vs straight quotes, use of ё), instead of producing a "sterile clean" output.
 
 ## Installation
 
@@ -37,7 +37,7 @@ mkdir -p ~/.config/opencode/skills
 git clone https://github.com/SergeNS-mne/humanizer-ru.git ~/.config/opencode/skills/humanizer-ru
 ```
 
-> OpenCode also scans `~/.claude/skills/` — one clone works for both clients.
+> OpenCode also scans `~/.claude/skills/` – one clone works for both clients.
 
 ## Usage
 
@@ -71,7 +71,7 @@ Now clean this text:
 | **Rule of three** | «быстро, надёжно и удобно» → specific claim |
 | **Negative parallelisms** | «не просто X, это Y» (calque of "it's not just X, it's Y") |
 | **Inflated superlatives** | «революционный, уникальный, беспрецедентный» without evidence |
-| **Russian typography** | em-dash / en-dash, guillemets, letter ё — calibrated to author style |
+| **Russian typography** | em-dash / en-dash, guillemets, letter ё – calibrated to author style |
 | **Chatbot artifacts** | «Надеюсь, это помогло!» |
 
 Full catalog: [SKILL.md](./SKILL.md) (in Russian).
@@ -79,23 +79,23 @@ Full catalog: [SKILL.md](./SKILL.md) (in Russian).
 ## Example
 
 **Before (AI-sounding Russian):**
-> В современном мире, где технологии не стоят на месте, AI-ассистенты являются неотъемлемой частью процесса разработки. Это не просто автокомплит — это раскрытие творческого потенциала в масштабе.
+> В современном мире, где технологии не стоят на месте, AI-ассистенты являются неотъемлемой частью процесса разработки. Это не просто автокомплит – это раскрытие творческого потенциала в масштабе.
 
 **After (humanized):**
-> AI-ассистенты помогают в рутине: шаблонный код, конфиги, тесты-заготовки. Опасность в том, как уверенно выглядят подсказки — легко принять код, который компилируется, но мимо задачи.
+> AI-ассистенты помогают в рутине: шаблонный код, конфиги, тесты-заготовки. Опасность в том, как уверенно выглядят подсказки – легко принять код, который компилируется, но мимо задачи.
 
 ## Roadmap
 
-- [x] v0.1 — initial catalog of ~38 patterns
-- [ ] v0.2 — real-world text testing, rule refinement
-- [ ] v0.3 — channel-specific presets (blog, Telegram, LinkedIn, email, documentation)
-- [ ] v0.4 — domain whitelists (IT, finance, medicine terminology)
-- [ ] v0.5 — regression examples in `examples/`
-- [ ] v1.0 — stable release, frozen API
+- [x] v0.1 – initial catalog of ~38 patterns
+- [ ] v0.2 – real-world text testing, rule refinement
+- [ ] v0.3 – channel-specific presets (blog, Telegram, LinkedIn, email, documentation)
+- [ ] v0.4 – domain whitelists (IT, finance, medicine terminology)
+- [ ] v0.5 – regression examples in `examples/`
+- [ ] v1.0 – stable release, frozen API
 
 ## Credits
 
-Inspired by [blader/humanizer](https://github.com/blader/humanizer) (MIT License) — the original English-language skill, based on [Wikipedia: Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing).
+Inspired by [blader/humanizer](https://github.com/blader/humanizer) (MIT License) – the original English-language skill, based on [Wikipedia: Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing).
 
 ## Contributing
 
