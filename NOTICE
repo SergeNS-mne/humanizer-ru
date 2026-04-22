@@ -1,0 +1,19 @@
+humanizer-ru
+Copyright (c) 2026 Sergey Starikov
+
+This project is a Russian-language adaptation inspired by:
+
+  humanizer
+  Copyright (c) 2024-2026 blader
+  Licensed under the MIT License
+  https://github.com/blader/humanizer
+
+Approximately 8-10 of the original 29 pattern categories were adapted
+with modifications for Russian-language specifics. The remaining
+~28-30 pattern categories are original to this project and address
+issues unique to Russian (nominalization, genitive-case chains,
+"являться" parasite word, calques from English, Russian typography,
+formal "Вы" by default, etc.).
+
+The methodology (pattern catalog + before/after examples + two-pass
+audit) is inherited from the original project.
