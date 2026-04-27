@@ -54,7 +54,7 @@ git clone https://github.com/SergeNS-mne/humanizer-ru.git ~/.config/opencode/ski
 
 ## What the skill does NOT do
 
-To be honest: **the skill does not guarantee passing statistical detectors** (GPTZero, Originality.ai, Habr's "НЛО" classifier, RuBERT-based detectors).
+To be honest: **the skill does not guarantee passing statistical detectors** (GPTZero, Originality.ai, Habr's "НЛО" classifier and similar automated tools — implementation details of Habr's НЛО are not publicly documented).
 
 The skill works at phrase and document-structure levels and reports problems. The final structural rewriting (breaking listicle, varying paragraph rhythm, replacing AI-quote blocks with inline) requires **the author's editorial decision** — it can't be automated without losing meaning.
 
